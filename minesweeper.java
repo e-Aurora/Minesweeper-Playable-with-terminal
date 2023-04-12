@@ -59,7 +59,7 @@ public class minesweeper {
 			System.out.println("Choose location: ");
 			int x = a.nextInt();
 			int y = a.nextInt();
-			Click(Order,Mine,x,y,diff,flagMode);
+			Click(Order,Mine,x-1,y-1,diff,flagMode);
 			printBoard(Mine,diff);	
 		}
 		
